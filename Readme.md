@@ -1,7 +1,7 @@
 #GIT
 
 //Cria a chave. Colocar no github(web)
-ssh-keygen -t ed25519 -C xxxxxxxxx@gmail.com
+ssh-keygen -t ed25519 -C xxxxxxx@gmail.com
 
 // Start o serviço
 eval $(ssh-agent -s)
@@ -14,4 +14,4 @@ ssh-add id_ed25519
 git init
 
 // Clona um repositório
-git remote add origin https://github.com/maximofelix/dio-desafio-github-primeiro-repositorio.git
+git remote add origin https://github.com/xxxxxxx/dio-desafio-github-primeiro-repositorio.git
